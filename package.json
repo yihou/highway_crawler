@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "scripts": {
     "crawl-nkve": "node crawl_jalannow.js",
-    "crawl-video": "node crawl_youtube_video.js"
+    "crawl-video": "node crawl_youtube_video.js",
+    "crawl-visitaso": "node crawl_visitaso.js"
   },
   "type": "module",
   "dependencies": {
     "dotenv": "^16.3.1",
-    "puppeteer": "^20.1.1",
+    "puppeteer": "^24.27.0",
     "ytdl-core": "^4.11.4"
   }
 }
